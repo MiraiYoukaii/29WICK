@@ -26,4 +26,6 @@ Este projeto foi desenvolvido pelo grupo A.P.P (arabian projeto programação) d
 
 Este projeto está licenciado sob a Licença [LICENSE](LICENSE). Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-![Símbolo do Grupo A.P.P](https://pps.whatsapp.net/v/t61.24694-24/427385272_397489349671417_7278411696138491913_n.jpg?ccb=11-4&oh=01_AdSJ--17Ywi93oKA6MDbDbWORtBDeoLO8honLPDt9ofSsQ&oe=65ECD223&_nc_sid=e6ed6c&_nc_cat=108)
+<p align="center">
+  <img src="[link_para_a_imagem](https://pps.whatsapp.net/v/t61.24694-24/427385272_397489349671417_7278411696138491913_n.jpg?ccb=11-4&oh=01_AdSJ--17Ywi93oKA6MDbDbWORtBDeoLO8honLPDt9ofSsQ&oe=65ECD223&_nc_sid=e6ed6c&_nc_cat=108)" alt="Símbolo do Grupo A.P.P">
+</p>
