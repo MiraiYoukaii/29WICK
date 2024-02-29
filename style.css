@@ -1,0 +1,40 @@
+/* Estilos para o cabeçalho */
+header {
+    background: linear-gradient(to right, #000000, #090A4A); /* Gradiente preto para azul */
+    color: #2584D2; /* Texto azul */
+    padding: 20px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    position: absolute; /* Posição absoluta para o canto superior esquerdo */
+    top: 0; /* Distância do topo */
+    left: 0; /* Distância da esquerda */
+    width: 100%; /* Largura total */
+    letter-spacing: 2px; /* Espaçamento entre as letras aumentado */
+    font-size: 24px; /* Tamanho do texto aumentado */
+    font-family: "Neue Machina", sans-serif; /* Fonte Neue Machina */
+    
+}
+
+/* Estilos para o título */
+h1 {
+    margin: 0; /* Remover margens padrão */
+    font-family: "Neue Machina", sans-serif; /* Fonte Neue Machina */
+    letter-spacing: 5px; /* Espaçamento entre as letras */
+    flex-grow: 1; /* Ocupar todo o espaço disponível */
+    
+}
+
+h1 span {
+    display: block; /* Exibir em uma nova linha */
+    font-family: "Neue Machina", sans-serif; /* Fonte Neue Machina */
+    letter-spacing: 5px; /* Espaçamento entre as letras */
+    margin-left: 25px; /* Adicionar um pequeno espaçamento à esquerda do span */
+}
+
+
+/* Estilos para o corpo */
+body {
+    margin: 0; /* Remover margens padrão do corpo */
+    height: 100vh; /* Altura total da tela */
+    background: linear-gradient(to right, #000000, #090A4A); /* Gradiente preto para azul em todo o fundo */
+    font-family: "Neue Machina", sans-serif; /* Fonte Neue Machina */
+}
