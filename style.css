@@ -39,7 +39,74 @@ body {
     font-family: "Neue Machina", sans-serif; /* Fonte Neue Machina */
 }
 
-header img {
-    vertical-align: middle; /* Centralizar verticalmente em relação ao texto */
-    margin-right: 10px; /* Adicionar um espaçamento à direita para separar a imagem do texto */
+.note-section {
+    position: relative; /* Para que a posição dos elementos internos seja relativa a esta seção */
+    margin-top: 20px; /* Espaçamento acima da seção */
+    text-align: center; /* Alinhamento centralizado do texto */
 }
+
+/* Estilos para a imagem do bloco de notas */
+.note-section {
+    display: flex; /* Usar flexbox para alinhar itens */
+    align-items: center; /* Centralizar verticalmente */
+    margin-top: 200px; /* Espaçamento acima da seção */
+}
+
+/* Estilos para a seção do bloco de notas */
+.note-section {
+    position: relative; /* Definir a posição como relativa */
+    display: inline-block; /* Garantir que a seção se ajuste ao conteúdo */
+    margin-top: 150px; /* Aumentar a margem superior para mover a seção para cima */
+}
+
+/* Estilos para a imagem do bloco de notas */
+.note-section img {
+    width: 400px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantenha a proporção da imagem */
+}
+
+/* Estilos para a sobreposição de texto */
+.text-overlay {
+    position: absolute; /* Definir a posição como absoluta */
+    top: 0; /* Alinhar o topo do texto com o topo da seção */
+    left: 0; /* Alinhar a esquerda do texto com a esquerda da seção */
+    padding: 20px; /* Adicionar preenchimento para espaçamento interno */
+    margin-left: 30px;
+    line-height: 1.4; /* Aumentar o espaço entre as linhas */
+}
+
+.text-overlay h2,
+.text-overlay p {
+    margin: 0; /* Remover margens padrão */
+    color: #164B76; /* Cor do texto */
+}
+
+/* Estilos para a seção do botão de informações */
+.info-button {
+    position: absolute; /* Definir a posição como absoluta */
+    top: 25px; /* Alinhar o topo do botão com o topo do cabeçalho */
+    right: 825px; /* Alinhar a direita do botão com a direita do cabeçalho */
+}
+
+.info-button img {
+    width: 100px; /* Ajustar a largura conforme necessário */
+    height: auto; /* Mantenha a proporção da imagem */
+    cursor: pointer; /* Alterar o cursor para indicar que o botão é clicável */
+}
+
+/* Estilos para a barra de botões */
+.barra-botoes {
+    display: none; /* Ocultar a barra de botões inicialmente */
+    position: absolute; /* Definir a posição como absoluta */
+    top: 50px; /* Alinhar o topo da barra com o cabeçalho */
+    right: 0; /* Alinhar a direita da barra com o lado direito da tela */
+    background-color: #fff; /* Cor de fundo da barra */
+    padding: 10px; /* Adicionar preenchimento para espaçamento interno */
+}
+
+/* Estilos para os botões dentro da barra */
+.barra-botoes button {
+    display: block; /* Exibir os botões em uma nova linha */
+    margin-bottom: 5px; /* Adicionar margem inferior entre os botões */
+}
+
