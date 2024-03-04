@@ -82,7 +82,9 @@ body {
 }
 
 .menu {
-    position: relative;
+    position: absolute; /* Definir a posição como absoluta */
+    top: 25px; /* Alinhar o topo do botão com o topo do cabeçalho */
+    right: 825px; /* Alinhar a direita do botão com a direita do cabeçalho */
     background: #cd3e3d;
     width: 3em;
     height: 3em;
@@ -217,7 +219,4 @@ body {
     position: absolute;
     left: -1.2em;
     top: 5em;
-  }
-  .hint {
-    text-align: center;
   }
