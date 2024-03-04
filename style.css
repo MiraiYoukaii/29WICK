@@ -81,32 +81,3 @@ body {
     color: #164B76; /* Cor do texto */
 }
 
-/* Estilos para a seção do botão de informações */
-.info-button {
-    position: absolute; /* Definir a posição como absoluta */
-    top: 25px; /* Alinhar o topo do botão com o topo do cabeçalho */
-    right: 825px; /* Alinhar a direita do botão com a direita do cabeçalho */
-}
-
-.info-button img {
-    width: 100px; /* Ajustar a largura conforme necessário */
-    height: auto; /* Mantenha a proporção da imagem */
-    cursor: pointer; /* Alterar o cursor para indicar que o botão é clicável */
-}
-
-/* Estilos para a barra de botões */
-.barra-botoes {
-    display: none; /* Ocultar a barra de botões inicialmente */
-    position: absolute; /* Definir a posição como absoluta */
-    top: 50px; /* Alinhar o topo da barra com o cabeçalho */
-    right: 0; /* Alinhar a direita da barra com o lado direito da tela */
-    background-color: #fff; /* Cor de fundo da barra */
-    padding: 10px; /* Adicionar preenchimento para espaçamento interno */
-}
-
-/* Estilos para os botões dentro da barra */
-.barra-botoes button {
-    display: block; /* Exibir os botões em uma nova linha */
-    margin-bottom: 5px; /* Adicionar margem inferior entre os botões */
-}
-
