@@ -84,7 +84,7 @@ body {
 .menu {
     position: absolute; /* Definir a posição como absoluta */
     top: -45px; /* Alinhar o topo do botão com o topo do cabeçalho */
-    right: 850px; /* Alinhar a direita do botão com a direita do cabeçalho */
+    right: 860px; /* Alinhar a direita do botão com a direita do cabeçalho */
     background: #2584D2;
     width: 3em;
     height: 3em;
@@ -136,7 +136,7 @@ body {
     width: 0;
     height: 0;
     display: block;
-    left: 50%;
+    left: 30%;
     top: -5.0em;
     /**
      * The pseudo-element is a semi-circle
@@ -191,30 +191,30 @@ body {
     z-index: 10;
   }
   
-  .menu li:nth-of-type(1) {
+  .menu li:nth-of-type(4) {
     transform: rotate(-90deg);
     position: absolute;
     left: -1.2em;
     top: -4.2em;
   }
-  .menu li:nth-of-type(2) {
+  .menu li:nth-of-type(5) {
     transform: rotate(-45deg);
     position: absolute;
     left: 2em;
     top: -3em;
   }
-  .menu li:nth-of-type(3) {
+  .menu li:nth-of-type(1) {
     position: absolute;
     left: 3.4em;
     top: 0.3em;
   }
-  .menu li:nth-of-type(4) {
+  .menu li:nth-of-type(2) {
     transform: rotate(45deg);
     position: absolute;
     left: 2em;
     top: 3.7em;
   }
-  .menu li:nth-of-type(5) {
+  .menu li:nth-of-type(3) {
     transform: rotate(90deg);
     position: absolute;
     left: -1.2em;
