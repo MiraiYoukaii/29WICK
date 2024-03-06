@@ -37,6 +37,7 @@ body {
     height: 100vh; /* Altura total da tela */
     background: linear-gradient(to right, #000000, #090A4A); /* Gradiente preto para azul em todo o fundo */
     font-family: "Neue Machina", sans-serif; /* Fonte Neue Machina */
+    overflow: hidden;
 }
 
 .note-section {
@@ -84,7 +85,7 @@ body {
 .menu {
     position: absolute; /* Definir a posição como absoluta */
     top: -45px; /* Alinhar o topo do botão com o topo do cabeçalho */
-    right: 1400px; /* Alinhar a direita do botão com a direita do cabeçalho */
+    right: 1000px; /* Alinhar a direita do botão com a direita do cabeçalho */
     background: #2584D2;
     width: 3em;
     height: 3em;
