@@ -220,3 +220,10 @@ body {
     left: -1.2em;
     top: 5em;
   }
+
+ .equipe{
+  display: flex; /* Usar flexbox para alinhar itens */
+  align-items: center; /* Centralizar verticalmente */
+  margin-top: 500px; /* Espaçamento acima da seção */
+  margin-right: 500px;
+ }
