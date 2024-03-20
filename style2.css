@@ -84,8 +84,8 @@ body {
 
 .menu {
     position: absolute; /* Definir a posição como absoluta */
-    top: -45px; /* Alinhar o topo do botão com o topo do cabeçalho */
-    right: 1000px; /* Alinhar a direita do botão com a direita do cabeçalho */
+    top: -50px; /* Alinhar o topo do botão com o topo do cabeçalho */
+    right: 1400px; /* Alinhar a direita do botão com a direita do cabeçalho */
     background: #2584D2;
     width: 3em;
     height: 3em;
@@ -224,6 +224,10 @@ body {
 
  .equipe{
   display: block;
-  margin-left: 850px;
-  margin-top: -240px;
+  margin-left: 1000px;
+  margin-top: 50px;
+ }
+
+ .qrcode{
+  
  }
