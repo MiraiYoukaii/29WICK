@@ -229,5 +229,9 @@ body {
  }
 
  .qrcode{
-  
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: 700px;
+  margin-top: 10px;
  }
