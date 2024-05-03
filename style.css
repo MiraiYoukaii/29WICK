@@ -221,3 +221,11 @@ body {
     left: -1.2em;
     top: 5em;
   }
+
+  .planta{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin-left: 900px;
+    margin-top: -420px;
+   }
